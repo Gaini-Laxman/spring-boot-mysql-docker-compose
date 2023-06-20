@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://mysqldb:3306/sbms?enabledTLSProtocols=TLSv1.2
+    username: root
+    password: Laxman1436@
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+   
